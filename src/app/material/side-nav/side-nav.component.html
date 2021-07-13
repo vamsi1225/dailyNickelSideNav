@@ -1,0 +1,23 @@
+<mat-drawer-container [ngClass]="{'drawerContainer2':booleanValueForToggle ,'drawrerContainer':!booleanValueForToggle}"
+  autosize>
+  <mat-drawer #drawer class="drawer" mode="over" position="end">
+    <p><button (click)="drawer.toggle()" (click)="changeToggleValueToNormal()">Close</button></p>
+    <p>
+        Hello Software...!
+    </p>
+  </mat-drawer>
+
+  <!-- <div> -->
+  <!-- <a class="navbar-brand float-right" href="#">
+            <button type="button" (click)="drawer.toggle()">
+                <img src="../../../assets/icons/Union 4.svg" class="rounded float-right" alt="menu">
+              </button>
+        </a> -->
+  <!-- <router-outlet></router-outlet> -->
+  <!-- </div> -->
+  <mat-drawer-content class="drawerContent"(click)="changeToggleValueToNormal()">
+
+  </mat-drawer-content>
+
+
+</mat-drawer-container>

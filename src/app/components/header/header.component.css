@@ -1,0 +1,47 @@
+.navbar {
+    padding-top: 17px;
+    padding-bottom: 14px;
+    height: 6.25rem;
+}
+.row-inside-nav {
+    flex-grow: 1
+}
+.mobile-icon {
+    max-width: 7%;
+}
+.logo {
+    max-width: 19%;
+}
+.search-results {
+    max-width: 37%;
+}
+.location-search {
+    color: #6c8093;
+    background-color: white;
+}
+.video-tutorials {
+    display: inline-flex;
+}
+.video-tutorials-text {
+    color: white;
+    line-height: 16px;
+}
+.menu {
+    max-width: 5%;
+}
+.btn-sell {
+    border: 2px dashed white;
+    border-radius: 3rem;
+    height: fit-content;
+    /* margin-top: 13px; */
+}
+.btn-login-width {
+    border-radius: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.btn-sell-width {
+    border-radius: 2rem;
+    margin: 3px;
+    padding: 0.1rem 1.5rem;
+}

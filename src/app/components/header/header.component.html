@@ -1,0 +1,53 @@
+<header style="position: relative;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="row no-gutters row-inside-nav">
+            <div class="col-md-1 col-lg-1 col-xl-1 mobile-icon nav-item pt-3">
+                <a class="navbar-brand" href="#">
+                    <img src="../../../assets/icons/Union 4.svg" class="rounded float-left" alt="mobile">
+                </a>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 logo nav-item">
+                <a class="nav-link" href="#">
+                    <img src="../../../assets/icons/logo.png" class="rounded" alt="Logo">
+                </a>
+            </div>
+            <div class="col-md-auto col-lg-5 col-xl-5 search-results nav-item pt-3">
+                <!-- <div class="input-group search-results">
+                    <input type="text" class="form-control" placeholder="What Are You Looking For?">
+                    <div class="input-group-prepend">
+                        <button class="btn location-search dropdown-toggle" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Location <span>*</span> </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                        <button class="input-group-text btn btn-outline-success" type="submit">Search</button>
+                    </div>
+                </div> -->
+                <app-header-search></app-header-search>
+            </div>
+            <div class="col-md-2 col-lg-1 col-xl-1 mr-4 nav-item pt-3">
+                <a class="video-tutorials" href="#">
+                    <img src="../../../assets/icons/Union 4.svg" class="rounded float-left" alt="Video Tutorials">
+                    <span class="video-tutorials-text">VIDEO TUTORIALS</span>
+                </a>
+            </div>
+            <div class="col-md-auto col-lg-auto col-xl-auto nav-item pt-3">
+                <button type="button" class="btn btn-primary btn-login-width mr-2">LOGIN</button>
+            </div>
+            <div class="col-md-auto col-lg-auto col-xl-auto nav-item mt-3 mr-2 btn-sell">
+                <button type="button" class="btn btn-primary btn-sell-width">+ SELL</button>
+            </div>
+            <div class="col-md-1 col-lg-1 col-xl-1 nav-item menu pt-3 ml-auto">
+                <a class="navbar-brand float-right" href="#" (click)="toggleRightSidenav()">
+                    <img src="../../../assets/icons/Union 4.svg" class="rounded float-right" alt="menu">
+                </a>
+                <!-- <app-side-nav></app-side-nav> -->
+            </div>
+        </div>
+    </nav>
+</header>
+<app-side-nav></app-side-nav>

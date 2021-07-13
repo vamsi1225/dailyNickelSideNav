@@ -1,0 +1,50 @@
+<div class="input-group inputsGroup">
+    <div class="dropdown productsDropdown">
+        <input type="text" autocomplete="off" placeholder="What are you looking for?"
+            class="form-control dropdown-toggle productSearch" id="menu2" name="productsearch" data-toggle="dropdown">
+        <ul class="dropdown-menu searchBarDropDown" role="menu" aria-labelledby="menu2">
+            <li class="dropdown-item">
+                <p class="recentHeadingForDropDown">Recent</p>
+            </li>
+        </ul>
+    </div>
+    <div class="dropdown dropdownForLocations">
+        <input type="text" autocomplete="off" placeholder="Location*"
+            class="form-control dropdown-toggle locationSearch" data-toggle="dropdown" id="menu1">
+        <i class="fa fa-caret-down locationDropDownIcon"></i>
+        <ul class="dropdown-menu locationsearchDropDown" role="menu" aria-labelledby="menu1">
+            <li class="currentLocationElements">
+                <img src="../../../assets/icons/map-marker.svg" class="currentLocationIcon" alt="currentLocation icon" />
+                <span class="currentLocation">Use current location<p class="currentLocationName">Carmel, Indianapolis
+                    </p></span>
+
+            </li>
+            <hr>
+            <li class="recentLocationsHeading">RECENT LOCATIONS</li>
+        
+            <li><img src="../../../assets/icons/map-marker.svg" class="popularLocationsIcon">
+                <p class="recentLocations">Hyderabad</p>
+            </li>
+            <hr>
+            <li class="popularLocationHeading">POPULAR LOCATIONS</li>
+            <li><img src="../../../assets/icons/map-marker.svg" class="popularLocationsIcon">
+                <p class="popularLocations">Hyderabad</p>
+            </li>
+            <li><img src="../../../assets/icons/map-marker.svg" class="popularLocationsIcon">
+                <p class="popularLocations">Vizag</p>
+            </li>
+            <li><img src="../../../assets/icons/map-marker.svg" class="popularLocationsIcon">
+                <p class="popularLocations">Vijayawada</p>
+            </li>
+            <li><img src="../../../assets/icons/map-marker.svg" class="popularLocationsIcon">
+                <p class="popularLocations">Delhi</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="input-group-append">
+        <button class="btn searchButton" type="button">
+            <img src="../../../assets/icons/map-marker.svg" class="searchButtonIcon">
+        </button>
+    </div>
+</div>

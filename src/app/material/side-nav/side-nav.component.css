@@ -1,0 +1,26 @@
+.drawrerContainer{
+width: 100%;
+position: fixed;
+background-color: transparent;
+}
+.drawerContainer2{
+  width: 100%;
+  height: 100vh;
+  top:0px;
+  position: fixed;
+  background-color: transparent;
+}
+
+.drawer{
+  width: 300px;
+  padding: 20px;
+  height: 100vh;
+  z-index: 100;
+}
+.drawerContent
+{
+  position: relative; z-index:50
+}
+::ng-deep .mat-drawer-backdrop.mat-drawer-shown {
+  background-color: transparent;  
+}
